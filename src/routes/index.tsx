@@ -8,6 +8,20 @@ import { AppRoutes } from './app.routes';
 
 import { Notification } from '../components/Notification';
 
+const linking = {
+  prefixes: ["igniteshoes://"],
+  config: {
+    screens: {
+      details: {
+        path: '/details/:productId',
+        parse: {
+          productId: (productId: string) => productId
+        }
+      }
+    }
+  }
+}
+
 export function Routes() {
   const { colors } = useTheme();
 
@@ -29,7 +43,7 @@ export function Routes() {
   theme.colors.background = colors.gray[700];
 
   return (
-    <NavigationContainer theme={theme}>
+    <NavigationContainer theme={theme} linking={linking}>
       <AppRoutes />
 
      {
