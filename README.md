@@ -8,10 +8,6 @@ Um app de tênis feito com React Native que envia notificações! <br/>
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
-<p align="center">
-  <img alt="License" src="https://github.com/IgorGMendonca/IgniteGym/blob/main/Capa.png">
-</p>
-
 <br>
 
 ## 🚀 Tecnologias
