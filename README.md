@@ -1,7 +1,7 @@
 <h1 align="center"> Ignite Shoes Notification </h1>
 
 <p align="center">
-Um app de tênis feito com React Native que envia notificações! <br/>
+Um app para envio de notificações e estilização! <br/>
 </p>
 
 <p align="center">
